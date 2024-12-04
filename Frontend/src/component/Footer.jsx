@@ -12,7 +12,7 @@ const Footer = () => {
             <p>123 Travel St, Wanderlust City</p>
             <p>travelwithus@gmail.com</p>
             <p>+1 555 123 456</p>
-            <p>+1 555 987 654</p>
+            <p>+1 555 9xxxxxxxxxxxxxxxxxxxxxxxx87 654</p>
           </Col>
           <Col md={3}>
             <h5>Destinations</h5>

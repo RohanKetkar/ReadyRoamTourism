@@ -7,9 +7,8 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div>
-   
       <NavigationBar />
-      <Container fluid className="bg-light py-5 text-center">
+      <Container fluid className="bg-light py-5 text-center ">
         <h1 className="display-4 mb-3">Pack Your Bags, We've Done the Rest!</h1>
         <p className="lead text-muted mb-4">Your Gateway to Unforgettable Adventures</p>
       </Container>

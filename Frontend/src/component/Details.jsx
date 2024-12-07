@@ -86,7 +86,7 @@ export function Details() {
                     </Col>
                     
                     <Col xs="auto" className="text-end">
-                        <Button variant="success">Add to Cart</Button>
+                        <Button variant="success"><Link to={Router.CART} style={{ textDecoration: "none", color: "white" }} >Add to Cart</Link></Button>
                     </Col>
                 </Row>
             </Container></div>

@@ -8,6 +8,7 @@ export const Router = Object.freeze({
     DEFAULT : "/",
 
     AFTER : "/tourism",
+    AFTERADMIN : "/adminhome",
     DETAIL : "/packagedetail" ,
 
     ABOUT : "/aboutus"

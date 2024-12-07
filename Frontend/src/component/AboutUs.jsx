@@ -24,27 +24,27 @@ const AboutUs = () => {
     {
       name: "Vaishnavi Sharma",
       role: "Co-Founder",
-      image: "/images/vaishnaviImage.jpg"
+      image: "/Images/vaishnaviImage.jpg"
     },
     {
       name: "Rohan Ketkar",
       role: "CEO and Director of Travel Operations",
-      image: "/images/rohanImage.jpg"
+      image: "/Images/rohanImage.jpg"
     },
-    {
-      name: "Pranay Singh",
-      role: "Vice President of Travel Operations",
-      image: "/images/pranayImage.jpg"
-    },
+    // {
+    //   name: "Pranay Singh",
+    //   role: "Vice President of Travel Operations",
+    //   image: "/Images/pranayImage.jpg"
+    // },
     {
       name: "Priti Gedam",
       role: "Travel Expert",
-      image: "/images/pritiImage.jpg"
+      image: "/Images/pritiImage.jpg"
     },
     { 
       name: "Dipesh Bhambhani",
       role: "Customer Experience",
-      image: "/images/dipeshImage.jpg"
+      image: "/Images/dipeshImage.jpg"
     }
     
     
@@ -52,27 +52,26 @@ const AboutUs = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
+      
       <header className="bg-white shadow-sm fixed w-full top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
-            {/* Logo */}
+           
             <div className="flex-shrink-0 flex items-center">
               <h1 className="text-2xl font-bold text-indigo-600">ReadyRoam</h1>
             </div>
 
-            {/* Desktop Navigation */}
+           
             <nav className="hidden md:flex space-x-8">
-              <Link to={Router.DEFAULT}>Home</Link>
-              <a href="#" className="text-gray-600 hover:text-indigo-600">Destinations</a>
-              <a href="#" className="text-gray-600 hover:text-indigo-600">About</a>
-              <a href="#" className="text-gray-600 hover:text-indigo-600">Contact</a>
+              <Link to={Router.DEFAULT} style={{ textDecoration: "none"}}>Home</Link>
+              
+              <Link to={Router.CONTACTUS}className="text-gray-600 hover:text-indigo-600" style={{ textDecoration: "none"}}>Contact us</Link>
             </nav>
 
-            {/* Auth Buttons */}
+           
            
 
-            {/* Mobile menu button */}
+           
             <div className="md:hidden">
               <Button
                 variant="ghost"
@@ -85,7 +84,6 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
@@ -106,9 +104,8 @@ const AboutUs = () => {
         )}
       </header>
 
-      {/* Main Content */}
       <main className="flex-grow mt-16">
-        {/* Hero Section */}
+     
         <div className="relative h-96 bg-indigo-600">
           <div className="absolute inset-0 bg-indigo-600 opacity-90"></div>
           <div className="absolute inset-0 flex items-center justify-center">
@@ -119,7 +116,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Mission Statement */}
+      
         <div className="max-w-4xl mx-auto px-4 py-16">
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
@@ -131,7 +128,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Stats Section */}
+       
         <div className="bg-gray-50 py-16">
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -146,7 +143,6 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Team Section */}
         <div className="max-w-6xl mx-auto px-4 py-16">
           <h2 className="text-3xl font-bold text-center mb-12">Meet Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -164,7 +160,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Values Section */}
+      
         <div className="bg-gray-50 py-16">
           <div className="max-w-4xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">The ReadyRoam Difference</h2>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Image, Row, Col, Button } from "react-bootstrap";
 import { NavBar } from "./NavBar";
+import { Router } from '../Route/Route';
+import { Link } from 'react-router-dom';
 export const Cart = () => {
     // Initial cart items state
     const [cartItems, setCartItems] = useState([
@@ -10,9 +12,7 @@ export const Cart = () => {
             days: '5',
             price: 249999,
             quantity: 1,
-        },
-        
-        
+        },               
     ]);
 
     // Handle increment
@@ -86,7 +86,7 @@ export const Cart = () => {
 
                     <Row className="d-flex justify-content-between">
                         <Col xs="auto">
-                            <Button variant="primary" onClick={() => alert('Continue Shopping')} >Explore Packages</Button>
+                            <Button variant="primary" > <Link to={Router.PACKAGE} style={{ marginTop:"10px" , textDecoration: "none", color: "white" }}>Explore Packages</Link></Button>
                         </Col>
                         <Col xs="auto" className="text-end">
                             <Button variant="success" onClick={handleClearCart}>Clear Cart</Button>

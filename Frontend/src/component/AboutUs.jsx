@@ -31,11 +31,11 @@ const AboutUs = () => {
       role: "CEO and Director of Travel Operations",
       image: "/Images/rohanImage.jpg"
     },
-    // {
-    //   name: "Pranay Singh",
-    //   role: "Vice President of Travel Operations",
-    //   image: "/Images/pranayImage.jpg"
-    // },
+    {
+      name: "Manoj More",
+      role: "Vice President of Travel Operations",
+      image: "Images/manojImage.png"
+    },
     {
       name: "Priti Gedam",
       role: "Travel Expert",

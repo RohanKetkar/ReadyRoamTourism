@@ -39,7 +39,7 @@ function SignUp() {
     console.log('Email:', email);
     console.log('Password:', password);
 
-    // Reset form fields
+    
     setFirstName('');
     setLastName('');
     setEmail('');

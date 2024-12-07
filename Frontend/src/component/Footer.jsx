@@ -11,8 +11,8 @@ const Footer = () => {
             <h5>Contact</h5>
             <p>123 Travel St, Wanderlust City</p>
             <p>travelwithus@gmail.com</p>
-            <p>+1 555 123 456</p>
-            <p>+1 555 987 654</p>
+            <p>+91 7397813461</p>
+            <p>+91 8238825495</p>
           </Col>
           <Col md={3}>
             <h5>Destinations</h5>
@@ -34,12 +34,12 @@ const Footer = () => {
           </Col>
           <Col md={3}>
             <h5>Social Media</h5>
-            <div>
-              <FaInstagram className="me-3" style={{ fontSize: "20px" }} />
-              <FaFacebook className="me-3" style={{ fontSize: "20px" }} />
-              <FaLinkedin className="me-3" style={{ fontSize: "20px" }} />
-              <FaYoutube className="me-3" style={{ fontSize: "20px" }} />
-              <FaTwitter className="me-3" style={{ fontSize: "20px" }} />
+            <div className="d-flex">
+              <FaInstagram className="me-3 mb-2" style={{ fontSize: "20px" }} />
+              <FaFacebook className="me-3 mb-2" style={{ fontSize: "20px" }} />
+              <FaLinkedin className="me-3 mb-2" style={{ fontSize: "20px" }} />
+              <FaYoutube className="me-3 mb-2" style={{ fontSize: "20px" }} />
+              <FaTwitter className="me-3 mb-2" style={{ fontSize: "20px" }} />
             </div>
           </Col>
         </Row>

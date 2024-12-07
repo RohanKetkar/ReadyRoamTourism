@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Carousel, Row, Col,Image } from "react-bootstrap";
+import { Container, Carousel, Row, Col, Image } from "react-bootstrap";
 import { NavBar } from "./NavBar";
-
+import Footer from "./Footer";
 
 
 export function HomeAfterLogin() {
@@ -106,8 +106,8 @@ export function HomeAfterLogin() {
             />
           </Col>
         </Row>
-
       </Container>
+      <Footer />
     </div>
   )
 }

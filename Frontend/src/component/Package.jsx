@@ -238,7 +238,7 @@ const Package = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </Container>
+      </Container>      
     </div>
   );
 };

@@ -1,11 +1,8 @@
 import React from "react";
 
 import { CheckIcon } from "@heroicons/react/20/solid";
-
+import Footer from "./Footer";
 import { Card, Button, Carousel, Container, Navbar } from "react-bootstrap";
-//import Card from 'react-bootstrap/Card';
-//import {Carousel} from 'react-bootstrap/Carousel';
-//import {ExampleCarouselImage} from 'components/ExampleCarouselImage';
 import package1 from "../assets/package1.jpeg";
 import package2 from "../assets/package2.jpeg";
 import package3 from "../assets/package3.jpeg";
@@ -238,7 +235,8 @@ const Package = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </Container>      
+      </Container> 
+      <Footer />     
     </div>
   );
 };

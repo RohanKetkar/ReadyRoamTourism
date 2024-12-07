@@ -15,7 +15,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-//Base1
+//Base
 @MappedSuperclass // class level annotation to specify following is a base class from which other
 // entities will inherit , no separate table !
 //getter setter by lombok

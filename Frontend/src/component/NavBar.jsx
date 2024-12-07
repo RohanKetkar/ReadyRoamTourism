@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar, NavDropdown,Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Router } from "../Route/Route";
-import { FaSignOutAlt } from "react-icons/fa"; // Import logout icon from react-icons
+import { FaSignOutAlt } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from "react-router-dom";

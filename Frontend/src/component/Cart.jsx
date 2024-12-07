@@ -4,7 +4,7 @@ import { NavBar } from "./NavBar";
 import { Router } from '../Route/Route';
 import { Link } from 'react-router-dom';
 export const Cart = () => {
-    // Initial cart items state
+  
     const [cartItems, setCartItems] = useState([
         {
             id: 1,
@@ -15,7 +15,7 @@ export const Cart = () => {
         },               
     ]);
 
-    // Handle increment
+  
     const handleIncrement = (id) => {
         setCartItems((prevItems) =>
             prevItems.map((item) =>
@@ -24,7 +24,7 @@ export const Cart = () => {
         );
     };
 
-    // Handle decrement
+  
     const handleDecrement = (id) => {
         setCartItems((prevItems) =>
             prevItems.map((item) =>
@@ -35,7 +35,7 @@ export const Cart = () => {
         );
     };
 
-    // Handle clear cart
+    
     const handleClearCart = () => {
         setCartItems([]);
     };

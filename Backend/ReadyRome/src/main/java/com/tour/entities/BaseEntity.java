@@ -21,7 +21,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class BaseEntity {
-	@Id
+	@Id //this is auto incremented id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@CreationTimestamp

@@ -22,7 +22,7 @@ import lombok.ToString;
 @ToString
 public class BaseEntity {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//Auto id generation
 	private Long id;
 	@CreationTimestamp
 	@Column(name="created_on")

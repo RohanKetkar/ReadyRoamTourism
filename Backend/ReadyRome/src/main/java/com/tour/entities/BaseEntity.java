@@ -15,15 +15,12 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-//Base1
-@MappedSuperclass // class level annotation to specify following is a base class from which other
-// entities will inherit , no separate table !
-//getter setter by lombok
+@MappedSuperclass 
 @Getter
 @Setter
 @ToString
 public class BaseEntity {
-	@Id //this is auto incremented id
+	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@CreationTimestamp

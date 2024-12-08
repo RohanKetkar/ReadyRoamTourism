@@ -23,8 +23,13 @@ import lombok.ToString;
 @Setter
 @ToString
 public class BaseEntity {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//Auto id generation
+
 	@Id //this is auto incremented id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 	private Long id;
 	@CreationTimestamp
 	@Column(name="created_on")

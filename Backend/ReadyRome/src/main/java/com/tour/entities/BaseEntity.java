@@ -15,14 +15,21 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+//Base
 @MappedSuperclass // class level annotation to specify following is a base class from which other
 // entities will inherit , no separate table !
+//getter setter by lombok
 @Getter
 @Setter
 @ToString
 public class BaseEntity {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//Auto id generation
+
+	@Id //this is auto incremented id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 	private Long id;
 	@CreationTimestamp
 	@Column(name="created_on")
